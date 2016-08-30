@@ -1,0 +1,32 @@
+
+//right column has the dialog box and text
+
+.columnRight{
+	margin-left:-3%;
+
+	.wrapper {
+		padding:5%;
+		border-radius: 4px;
+		color:white;
+		width:100%;
+		.arrow {
+			height:10px;
+			width:10px;
+			transform: rotate(45deg);
+			margin-left:-6.5%;
+			margin-top: -3.5%;
+			position: relative;
+		}
+		h4 {
+			padding-bottom: 15px;
+			margin: 0px auto;
+			font-weight: 500;
+		}
+		p {
+			margin:0 auto;
+			margin-top: 20px;
+			font-size: 14px;
+			font-weight: 300;
+		}
+	}
+}

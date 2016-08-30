@@ -1,0 +1,23 @@
+.columnRight {
+  margin-left: -3%; }
+  .columnRight .wrapper {
+    padding: 5%;
+    border-radius: 4px;
+    color: white;
+    width: 100%; }
+    .columnRight .wrapper .arrow {
+      height: 10px;
+      width: 10px;
+      transform: rotate(45deg);
+      margin-left: -6.5%;
+      margin-top: -3.5%;
+      position: relative; }
+    .columnRight .wrapper h4 {
+      padding-bottom: 15px;
+      margin: 0px auto;
+      font-weight: 500; }
+    .columnRight .wrapper p {
+      margin: 0 auto;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 300; }

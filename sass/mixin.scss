@@ -1,0 +1,26 @@
+$primary-color: #6CBFEE;
+
+@mixin getColor($amount){
+   background-color: darken($primary-color, $amount);
+}
+@mixin getColorFont($amount){
+    color: darken($primary-color, $amount);
+}
+@mixin getColorLine($amount){
+    border-bottom: 1px solid lighten(darken($primary-color, $amount),10);
+}
+
+@for $i from 1 through 5 {
+  .timelineOne:nth-child(#{$i}) .wrapper {
+    @include getColor($i*10)
+  }
+.timelineOne:nth-child(#{$i}) .arrow {
+    @include getColor($i*10)
+  }  
+  .timelineOne:nth-child(#{$i}) .time {
+    @include getColorFont($i*10)
+  }
+    .timelineOne:nth-child(#{$i}) h4 {
+    @include getColorLine($i*10)
+  }
+}

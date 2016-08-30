@@ -1,0 +1,59 @@
+.timelineOne:nth-child(1) .wrapper {
+  background-color: #3eabe9; }
+
+.timelineOne:nth-child(1) .arrow {
+  background-color: #3eabe9; }
+
+.timelineOne:nth-child(1) .time {
+  color: #3eabe9; }
+
+.timelineOne:nth-child(1) h4 {
+  border-bottom: 1px solid #6cbfee; }
+
+.timelineOne:nth-child(2) .wrapper {
+  background-color: #1995db; }
+
+.timelineOne:nth-child(2) .arrow {
+  background-color: #1995db; }
+
+.timelineOne:nth-child(2) .time {
+  color: #1995db; }
+
+.timelineOne:nth-child(2) h4 {
+  border-bottom: 1px solid #3eabe9; }
+
+.timelineOne:nth-child(3) .wrapper {
+  background-color: #1476ad; }
+
+.timelineOne:nth-child(3) .arrow {
+  background-color: #1476ad; }
+
+.timelineOne:nth-child(3) .time {
+  color: #1476ad; }
+
+.timelineOne:nth-child(3) h4 {
+  border-bottom: 1px solid #1995db; }
+
+.timelineOne:nth-child(4) .wrapper {
+  background-color: #0f577f; }
+
+.timelineOne:nth-child(4) .arrow {
+  background-color: #0f577f; }
+
+.timelineOne:nth-child(4) .time {
+  color: #0f577f; }
+
+.timelineOne:nth-child(4) h4 {
+  border-bottom: 1px solid #1476ad; }
+
+.timelineOne:nth-child(5) .wrapper {
+  background-color: #093752; }
+
+.timelineOne:nth-child(5) .arrow {
+  background-color: #093752; }
+
+.timelineOne:nth-child(5) .time {
+  color: #093752; }
+
+.timelineOne:nth-child(5) h4 {
+  border-bottom: 1px solid #0f577f; }

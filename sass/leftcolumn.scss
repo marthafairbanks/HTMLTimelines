@@ -1,0 +1,63 @@
+$gray-color: #d3d3d3;
+$primary-color: #6CBFEE;
+
+//left column-A with the date and time
+
+.datetime {
+	text-align:right;
+	margin: 0px auto;
+	padding: 0px;
+	line-height:15px;
+	.date{
+		font-size:10px;
+		color: $gray-color;
+	}
+	.time {
+		font-size: 30px;
+	}	
+}
+
+
+
+//left column-B with the date and time and bar and circle
+
+
+.columnLeft{
+	padding-right:0px;
+	.circlebar {
+		height:100%;
+		padding:0px;
+		.circle {
+			border-radius:50px;
+			height:40px;
+			width: 40px;
+			border:6px solid lighten($primary-color, 10);
+			background-color: darken($primary-color, 21);
+			display:block;
+			margin:0px auto;
+			z-index: 1000;	
+			position:relative;
+			margin-top: -7px;	
+
+			.fa {
+				color:white;
+				font-size: 20px;
+				text-align: center;
+				display:block;
+				margin: 0px auto;
+				margin-top: 4px;}
+			&:hover {
+				animation: bounce 1.5s ease;
+	  			animation-iteration-count: 1;}
+	  	}
+	  	.bar {
+			height:310px;
+			width:7px;
+			background-color: lighten($primary-color, 5);
+			display:block;
+			margin:0px auto;
+			margin-top:-10px;
+			padding:0px;
+		}
+	}
+}
